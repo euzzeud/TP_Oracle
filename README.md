@@ -15,7 +15,7 @@
 Vous travaillez comme analyste SI au sein du service RH d’une entreprise.  
 Vous devez produire des indicateurs, automatiser certains traitements et exposer des données utiles aux managers.
 
-Vous utilisez le schéma **HR** fourni dans FreeSQL.
+Vous utilisez le schéma **HR** fourni dans FreeSQL (https://freesql.com/).
 
 ---
 
