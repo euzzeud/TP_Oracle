@@ -186,7 +186,7 @@ Créer une vue `V_HIGH_EARNERS` :
 - Environnement : FreeSQL (Oracle)
 - Travail individuel
 - Rendu :
-  - fichier SQL
+  - fichier SQL à déposer dans ce Repository GitHub
   - captures d’écran (optionnel)
 
 ---
