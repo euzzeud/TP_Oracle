@@ -70,7 +70,7 @@ Requête :
 -- SELECT first_name, last_name, salary FROM HR.EMPLOYEES ORDER BY salary DESC LIMIT 5;
 -- =====================================================
 ```
-    LIMIT n'existe pas en ORACLE SQL, la bonne requête est :
+LIMIT n'existe pas en ORACLE SQL, la bonne requête est :
 ```sql
 -- =====================================================
 -- SELECT first_name, last_name, salary FROM HR.EMPLOYEES ORDER BY salary DESC FETCH FIRST 5 ROWS ONLY;
