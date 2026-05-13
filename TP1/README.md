@@ -89,6 +89,19 @@ Résultat :
 ### Q1. Classement intra-département
 Pour chaque employé, afficher : `last_name`, `department_id`, `salary`, et son **rang** (`RANK`) salarial **au sein de son département**. Trier par département puis rang.
 
+Requête :
+```sql
+-- =====================================================
+-- SELECT last_name, department_id, salary, RANK() OVER (PARTITION BY department_id ORDER BY salary DESC) AS rank FROM HR.EMPLOYEES ORDER BY department_id, rank;
+-- =====================================================
+```
+Notes :
+- PARTITION BY department_id : remet le compteur à zéro à chaque département
+- ORDER BY salary DESC : le rang 1 est le salaire le plus élevé du département
+
+Résultat :
+![](./screenshots/q1.png)
+
 ### Q2. Top-N par groupe
 Lister les **3 employés les mieux payés de chaque département**. Utiliser une fonction de fenêtrage et une CTE.
 
