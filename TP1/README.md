@@ -77,6 +77,9 @@ LIMIT n'existe pas en ORACLE SQL, la bonne requête est :
 -- =====================================================
 ```
 
+Résultat :
+![](./screenshots/q0.png)
+
 ---
 
 # Partie 1 — SQL analytique (fonctions de fenêtrage)
